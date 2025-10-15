@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Preahvihear&display=swap');
 @import "tailwindcss";
 
 body{
   width: 100%;
   box-sizing: border-box;
-  background-color: #0B0B0B;
+  color: #fff;
+  font-family: 'inter', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .container{
@@ -11,3 +14,14 @@ body{
   margin: 0 auto;
   padding: 24px;
 }
+
+@theme{
+  --color-primary: #3E82F3;
+  --color-black-1: #000;
+  --color-black-2: #0B0B0B;
+  --color-black-3: #0E0E0E;
+  --color-black-4: #151515;
+  --color-white: #fff
+  --font-inter: "Inter", sans-serif;
+  --font-preahvihear: "Preahvihear", sans-serif;
+};
