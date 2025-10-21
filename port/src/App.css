@@ -4,6 +4,7 @@
 body{
   width: 100%;
   box-sizing: border-box;
+  background-color: black;
   color: #fff;
   font-family: 'inter', sans-serif;
   scroll-behavior: smooth;
@@ -15,6 +16,19 @@ body{
   padding: 24px;
 }
 
+.bg-gradiente{
+  background-image: radial-gradient(rgba(1, 76, 197, 0.082) 0%, #0b0b0b4d 100%);
+}
+/* h1::after{
+  content: '';
+ position: absolute;
+  top: -160%;
+  right: -30%;
+  width: 100%;
+  height: 110%;
+  background: url('../public/apaixonadoCafe.png')no-repeat;
+  
+} */
 @theme{
   --color-primary: #3E82F3;
   --color-black-1: #000;
