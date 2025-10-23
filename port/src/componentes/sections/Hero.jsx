@@ -3,9 +3,8 @@ import Button from "../Button";
 
 export default function Hero(){
     return(
-        <>
         <section className=" bg-[var(--color-black-2)]">
-            <div className="container grid grid-cols-2 items-center">
+            <div className="container-hero grid grid-cols-2 items-center">
                 <div>
                     <div className="grid grid-cols-3 items-center justify-center gap-6 mb-2">
                         <p className="text-2xl col-span-1 self-end">Olá, eu sou</p>
@@ -25,6 +24,5 @@ export default function Hero(){
                 <a href="#"><img src={arrow} alt="icon arrow down" /></a>
             </div>
         </section>
-        </>
     );
 }

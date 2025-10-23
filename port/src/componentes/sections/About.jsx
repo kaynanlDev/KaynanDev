@@ -4,8 +4,11 @@ import linkedIn from '../../assets/LinkedIn.svg'
 import email from '../../assets/email.svg'
 
 import Button from '../Button'
+import SubtitleComp from '../SubtitleComp'
+import Container from '../Container'
 
 export default function About(){
+
     const linksAbout = [
         {
             icon: msg,
@@ -29,9 +32,9 @@ export default function About(){
         },
     ]
     return(
-        <div className='bg-[var(--color-black-3)] pt-25 pb-63'>
-            <div className="container">
-                <h2 className='text-[2rem] text-[var(--color-primary)] font-preahvihear'>Sobre mim</h2>
+        <section className='bg-[var(--color-black-3)] pt-25 pb-63'>
+            <Container>
+                <SubtitleComp subtitle={'Sobre mim'} />
                 <p className='text-[1.25rem] font-medium pt-4 pb-6'>Natal, Brasil</p>
                 <p className='text-[1.25rem] font-medium pb-10 max-w-3/4'>
                     Meu nome é Kaynan Teixeira, sou programador e designer com mais de dois anos de experiência.
@@ -47,7 +50,7 @@ export default function About(){
                 </div>
 
                 <Button texto="Baixar currículo" />
-            </div>
-        </div>
+            </ Container>
+        </section>
     );
 }
