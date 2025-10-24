@@ -1,7 +1,7 @@
 export default function Header(){
     return(
         <>
-        <header className="w-full  bg-[var(--color-black-2)] ">
+        <header className="container-s w-full  bg-[var(--color-black-2)] ">
             <div className="container flex justify-between border-b-[#151515] border-b-2">
                 <div className="font-preahvihear font-bold text-[#3E82F3]">KaynanDev</div>
                 <nav>
